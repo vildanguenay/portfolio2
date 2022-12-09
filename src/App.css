@@ -41,8 +41,7 @@ a:hover {
 }
 img {
   width: 100%;
-  height: 100%;
-  flex-shrink: 0;
+  height: auto;
 }
 button {
   border: 0;
@@ -369,21 +368,13 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgb(21 21 21);
   overflow: hidden;
 }
-@media only screen and (min-width: 1400px) {
-  .project .nav.nav-pills .nav-item {
-    width: 25%;
-  }
+.project .nav.nav-pills .nav-item {
+  width: 33.33333%;
 }
-@media only screen and (max-width: 1400px) {
-  .project .nav.nav-pills .nav-item {
-    width: -webkit-fill-available;
-  }
-}
-
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
@@ -432,23 +423,16 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 } */
-.cardsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  width: 79rem !important;
-  height: 39rem !important;
 }
 .proj-imgbx::before {
   content: '';
   background: linear-gradient(90.21deg, #19242c -5.91%, #081115 111.58%);
-  opacity: 0.98;
+  opacity: 0.85;
   position: absolute;
   width: 100%;
   height: 0;
@@ -471,18 +455,14 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 a {
+.proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
   color: #bec0cc;
-  text-decoration: underline;
 }
-.proj-imgbx .proj-txtx h4:hover {
-  text-decoration: none;
-}
-.proj-txtx h5 {
+/* .proj-txtx h5 {
   font-weight: bold;
 }
 .proj-txtx ul {
@@ -492,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .proj-txtx ul li {
   color: #bec0cc;
   padding-right: 32px;
-}
+} */
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
@@ -506,11 +486,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
-}
-.aboutCard {
-  color: green;
-  justify-content: center;
-  align-items: center;
 }
 /* Footer CSS */
 .footer {
