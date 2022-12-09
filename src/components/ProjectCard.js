@@ -1,5 +1,3 @@
-import { Col } from 'react-bootstrap';
-// import { sizing } from '@mui/system';
 import Netflix from '../assets/img/netflix.png';
 import Webshop from '../assets/img/webshop.png';
 import firstWebsite from '../assets/img/website.png';
@@ -26,25 +24,23 @@ export const ProjectCard = ({
   };
 
   return (
-    <Col md={6} lg={4} className="cardContainer">
-      <div className="proj-imgbx">
-        <img src={images[image]} alt="" />
-        <div className="proj-txtx">
-          <a href={link}>
-            <h4>{title}</h4>
-          </a>
-          <h5>{header}</h5>
-          <ul
-            className="featureText"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
-          <h5>{header2}</h5>
-          <ul
-            className="featureText"
-            dangerouslySetInnerHTML={{ __html: description2 }}
-          />
-        </div>
-      </div>
-    </Col>
+    <div className="proj-imgbx">
+      <img src={images[image]} alt="" />
+      {/* <div className="proj-txtx">
+        <a href={link}>
+          <h4>{title}</h4>
+        </a>
+        <h5>{header}</h5>
+        <ul
+          className="featureText"
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
+        <h5>{header2}</h5>
+        <ul
+          className="featureText"
+          dangerouslySetInnerHTML={{ __html: description2 }}
+        />
+      </div> */}
+    </div>
   );
 };

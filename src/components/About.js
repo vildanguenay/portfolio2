@@ -10,7 +10,7 @@ export const About = () => {
     <section className="project" id="about">
       <Container>
         <Row>
-          <Col>
+          <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -50,28 +50,28 @@ export const About = () => {
                   }
                 >
                   <Tab.Pane eventKey="first">
-                    <Row className="justify-content-center align-items-center">
+                    <Row className="aboutCard">
                       {project.id === 1 ? (
                         <ProjectCard key={project.id} {...project} />
                       ) : null}
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <Row className="justify-content-center align-items-center">
+                    <Row className="justify-content-center align-items-center aboutCard">
                       {project.id === 2 ? (
                         <ProjectCard key={project.id} {...project} />
                       ) : null}
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <Row className="justify-content-center align-items-center">
+                    <Row className="justify-content-center align-items-center aboutCard">
                       {project.id === 3 ? (
                         <ProjectCard key={project.id} {...project} />
                       ) : null}
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <Row className="justify-content-center align-items-center">
+                    <Row className="justify-content-center align-items-center aboutCard">
                       {project.id === 4 ? (
                         <ProjectCard key={project.id} {...project} />
                       ) : null}

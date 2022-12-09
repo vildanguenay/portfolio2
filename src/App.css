@@ -42,6 +42,7 @@ a:hover {
 img {
   width: 100%;
   height: 100%;
+  flex-shrink: 0;
 }
 button {
   border: 0;
@@ -94,9 +95,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   opacity: 0.5;
-}
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-  opacity: 1;
 }
 span.navbar-text {
   display: flex;
@@ -434,16 +432,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 } */
-.cardContainer {
-  display: inline-flex;
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 79rem !important;
+  height: 39rem !important;
 }
-
 .proj-imgbx::before {
   content: '';
   background: linear-gradient(90.21deg, #19242c -5.91%, #081115 111.58%);
@@ -470,13 +471,16 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
+.proj-txtx h4 a {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
   color: #bec0cc;
-  text-decoration: inherit;
+  text-decoration: underline;
+}
+.proj-imgbx .proj-txtx h4:hover {
+  text-decoration: none;
 }
 .proj-txtx h5 {
   font-weight: bold;
@@ -503,7 +507,11 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-
+.aboutCard {
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
 /* Footer CSS */
 .footer {
   padding: 0 0 20px 0;
