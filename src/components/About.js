@@ -42,8 +42,13 @@ export const About = () => {
                   <Nav.Link eventKey="fourth">Wed Development & Dsign</Nav.Link>
                 </Nav.Item>
               </Nav>
-              {data.map((project, index) => (
-                <Tab.Content>
+              {data.map((project, isVisible) => (
+                <Tab.Content
+                  id="slideInUp"
+                  className={
+                    isVisible ? 'animate__animated animate__slideInUp' : ''
+                  }
+                >
                   <Tab.Pane eventKey="first">
                     <Row className="justify-content-center align-items-center">
                       {project.id === 1 ? (

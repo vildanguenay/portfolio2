@@ -10,7 +10,7 @@ export const Projects = () => {
     <section className="project" id="project">
       <Container>
         <Row>
-          <Col>
+          <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div

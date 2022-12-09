@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  /* background-color: #121212 !important; */
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -41,7 +41,7 @@ a:hover {
 }
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 button {
   border: 0;
@@ -75,6 +75,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
+  opacity: 0.99;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -89,9 +90,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
-  opacity: 0.75px;
+  /* opacity: 0.75px; */
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+  opacity: 0.5;
+}
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
@@ -117,7 +120,7 @@ span.navbar-text {
   border: 1px solid rgba(161, 137, 167, 0.5);
 }
 .navbar-text a {
-  color: rgb(109 64 132 / 90%);
+  color: rgb(109 64 132 / 90%) !important;
 }
 .social-icon a::before {
   content: '';
@@ -168,9 +171,6 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-/* .navbar-text button:hover {
-  color: #121212;
-} */
 .navbar-text button:hover::before {
   content: '';
   width: 100%;
@@ -352,11 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: linear-gradient(
-    rgb(19 21 32),
-    rgb(50 61 73),
-    rgb(119 101 107)
-  );
+  background: linear-gradient(rgb(19 21 32), rgb(50 61 73), rgb(119 101 107));
 }
 .project h2 {
   font-size: 45px;
@@ -438,20 +434,16 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 } */
+.cardContainer {
+  display: inline-flex;
+}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  height: 340px;
-  display: flex;
 }
-.proj-imgbx img {
-  border-radius: 27px;
-  min-width: 100%;
-  min-height: 100%;
-  align-self: center;
-}
+
 .proj-imgbx::before {
   content: '';
   background: linear-gradient(90.21deg, #19242c -5.91%, #081115 111.58%);
