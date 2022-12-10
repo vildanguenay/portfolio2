@@ -23,7 +23,7 @@ export const About2 = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
+                      className="nav-pills mb-5 justify-content-center align-items-center flex-sm-column flex-md-row"
                       id="pills-tab"
                     >
                       <Nav.Item>

@@ -41,7 +41,7 @@ a:hover {
 }
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 button {
   border: 0;
@@ -429,6 +429,27 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
+@media (min-width: 400px) {
+  .proj-imgbx {
+    height: 15rem;
+  }
+}
+@media (min-width: 500px) {
+  .proj-imgbx {
+    height: 20rem;
+  }
+}
+@media (min-width: 758px) {
+  .proj-imgbx {
+    height: 30rem;
+  }
+}
+@media (min-width: 1000px) {
+  .proj-imgbx {
+    height: 43rem;
+  }
+}
+
 .proj-imgbx::before {
   content: '';
   background: linear-gradient(90.21deg, #19242c -5.91%, #081115 111.58%);
