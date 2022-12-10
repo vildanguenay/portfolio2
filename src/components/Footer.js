@@ -12,10 +12,11 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <a href="mailto:vildan-guenay@hotmail.com" className="footerLink">
-            mailto: vildan-guenay@hotmail.com
-          </a>
-
+          <div>
+            <a href="mailto:vildan-guenay@hotmail.com" className="footerLink">
+              mailto: vildan-guenay@hotmail.com
+            </a>
+          </div>
           <div className="social-icon navbar-text">
             <a href="https://www.instagram.com/vildanguenay/" alt="">
               <i>
