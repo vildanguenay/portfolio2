@@ -1,19 +1,19 @@
 import { Container, Col, Row } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from '../assets/img/react.svg';
-import meter2 from '../assets/img/html.svg';
-import meter3 from '../assets/img/css.svg';
-import meter4 from '../assets/img/graphql.svg';
-import meter5 from '../assets/img/apollo.svg';
-import meter6 from '../assets/img/materialUI.svg';
-import meter7 from '../assets/img/js.svg';
-import meter8 from '../assets/img/bootstrap.svg';
-import meter9 from '../assets/img/sass.svg';
-import meter10 from '../assets/img/scrum1.png';
-import meter11 from '../assets/img/cypress.svg';
-import meter12 from '../assets/img/jest.png';
-import meter13 from '../assets/img/slack.svg';
+import meter1 from '../img/react.svg';
+import meter2 from '../img/html.svg';
+import meter3 from '../img/css.svg';
+import meter4 from '../img/graphql.svg';
+import meter5 from '../img/apollo.svg';
+import meter6 from '../img/materialUI.svg';
+import meter7 from '../img/js.svg';
+import meter8 from '../img/bootstrap.svg';
+import meter9 from '../img/sass.svg';
+import meter10 from '../img/scrum1.png';
+import meter11 from '../img/cypress.svg';
+import meter12 from '../img/jest.png';
+import meter13 from '../img/slack.svg';
 
 export const Technologies = () => {
   const responsive = {

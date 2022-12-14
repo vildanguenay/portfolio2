@@ -42,7 +42,6 @@ export const About = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      {console.log(data)}
                       <Row>
                         {project.id === 2 ? (
                           <ProjectCard key={project.id} {...project} />

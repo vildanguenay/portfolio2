@@ -10,6 +10,7 @@
     "animate": "^1.0.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^4.0.0",
     "icons": "^1.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -26,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && gh-pages -t -f -d build -b master"
+    "deploy": "yarn build && gh-pages -t -f -d build -b main"
   },
   "eslintConfig": {
     "extends": "react-app"

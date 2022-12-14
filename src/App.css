@@ -229,7 +229,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/mountains.jpg');
+  background-image: url('./img/mountains.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 #about {
   /* background: linear-gradient(rgb(119 101 107), rgb(50 61 73)); */
   /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
-  background-image: url('./assets/img/space2.jpg');
+  background-image: url('./img/space2.jpg');
   background-size: cover;
 }
 /* Footer CSS */

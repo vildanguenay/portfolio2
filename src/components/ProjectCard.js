@@ -1,13 +1,13 @@
 import { Col } from 'react-bootstrap';
-import Netflix from '../assets/img/netflix.png';
-import Webshop from '../assets/img/webshop.png';
-import firstWebsite from '../assets/img/website.png';
-import presenting from '../assets/img/presenting.jpg';
-import office from '../assets/img/office.jpg';
-import master from '../assets/img/master.jpg';
-import solidarity from '../assets/img/solidarity.jpg';
-import design from '../assets/img/design.jpg';
-import unbiased from '../assets/img/unbiased.png';
+import Netflix from '../img/netflix.png';
+import Webshop from '../img/webshop.png';
+import firstWebsite from '../img/website.png';
+import presenting from '../img/presenting.jpg';
+import office from '../img/office.jpg';
+import master from '../img/master.jpg';
+import solidarity from '../img/solidarity.jpg';
+import design from '../img/design.jpg';
+import unbiased from '../img/unbiased.png';
 
 export const ProjectCard = ({
   title,
