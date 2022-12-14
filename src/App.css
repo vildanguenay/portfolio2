@@ -14,7 +14,7 @@ body {
   position: relative;
   /* background-color: #121212 !important; */
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: Cursive, sans-serif !important;
 }
 h1,
 h2,
@@ -255,13 +255,18 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: #8473b7;
 }
 .banner p {
-  color: #b8b8b8;
+  color: #fff;
   font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 90%;
+  background-color: inherit;
+  backdrop-filter: blur(22px);
+  letter-spacing: 0.8px;
 }
 .banner a {
   color: #fff;
@@ -306,16 +311,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background: linear-gradient(rgb(50 61 73), rgb(19 21 32));
+  /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
+  /* border-top: 0.2px solid #868686; */
+  background: linear-gradient(rgb(26 13 18), rgb(50 61 73), rgb(19 21 32));
 }
 .skill-box {
-  background: #3b2944;
+  background: #131014;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
+  color: #b8b8b8;
   font-size: 45px;
   font-weight: 700;
 }
@@ -355,7 +363,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background: linear-gradient(rgb(50 61 73), rgb(119 101 107), rgb(19 21 32));
+  background: linear-gradient(rgb(50 61 73), rgb(119 101 107));
 }
 .project h2 {
   font-size: 45px;
@@ -375,7 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 82%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(21 21 21);
+  background-color: rgb(17 26 30);
   overflow: hidden;
   flex-direction: column;
   justify-content: space-around;
@@ -512,11 +520,14 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 /* About CSS */
 #about {
-  background: linear-gradient(rgb(119 101 107), rgb(50 61 73), rgb(19 21 32));
+  /* background: linear-gradient(rgb(119 101 107), rgb(50 61 73)); */
+  /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
+  background-image: url('./assets/img/space2.jpg');
+  background-size: cover;
 }
 /* Footer CSS */
 .footer {
-  padding: 0 0 20px 0;
+  padding: 4rem 0;
   background: rgb(19 21 32);
   background-position: center center;
   background-size: cover;
@@ -535,9 +546,12 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 .footerLink {
   padding: 15px 0;
-  color: #643c7a;
+  color: #787878;
 }
 .footerLink:hover {
   text-decoration: none;
   color: #643c7a;
+}
+.footerIcon {
+  margin-right: 5px;
 }

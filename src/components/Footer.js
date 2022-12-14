@@ -35,7 +35,8 @@ export const Footer = () => {
             </a>
           </div>
           <p>
-            <FontAwesomeIcon icon={faCopyright} /> Copyright 2022 Vildan Günay
+            <FontAwesomeIcon icon={faCopyright} className="footerIcon" />
+            2022 Vildan Günay
           </p>
         </Row>
       </Container>

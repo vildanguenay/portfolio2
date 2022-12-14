@@ -15,8 +15,6 @@ import meter11 from '../assets/img/cypress.svg';
 import meter12 from '../assets/img/jest.png';
 import meter13 from '../assets/img/slack.svg';
 
-import colorSharp from '../assets/img/color-sharp.png';
-
 export const Technologies = () => {
   const responsive = {
     superLargeDesktop: {
@@ -110,7 +108,6 @@ export const Technologies = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };

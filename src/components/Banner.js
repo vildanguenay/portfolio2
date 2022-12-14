@@ -64,8 +64,11 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    I enjoy anything design related, .
-                    jdcjejkvnkjaenvkaenjvneornvjenbodnrbioe
+                    `On this website you can find projects I have developed and
+                    partly designed myself. Also, I have created an About Me
+                    section where you can read about my educational background
+                    and current interests. Lastly, a slider showcases all
+                    technologies I have studied and implemented so far.
                   </p>
                   <a href="#project">
                     Check out my side projects <ArrowRightCircle siz={25} />
