@@ -3,8 +3,6 @@ import Netflix from '../img/netflix.png';
 import Webshop from '../img/webshop.png';
 import firstWebsite from '../img/website.png';
 import presenting from '../img/presenting.jpg';
-import office from '../img/office.jpg';
-import master from '../img/master.jpg';
 import solidarity from '../img/solidarity.jpg';
 import design from '../img/design.jpg';
 import unbiased from '../img/unbiased.png';
@@ -23,8 +21,6 @@ export const ProjectCard = ({
     webshop: Webshop,
     firstWebsite: firstWebsite,
     presenting: presenting,
-    office: office,
-    master: master,
     solidarity: solidarity,
     design: design,
     unbiased: unbiased,
