@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.45be4734.css",
-    "main.js": "/static/js/main.ad480b9d.js",
+    "main.js": "/static/js/main.c698f4cd.js",
     "static/js/787.146a3669.chunk.js": "/static/js/787.146a3669.chunk.js",
     "static/media/space2.jpg": "/static/media/space2.5e5d5b7f918b67dea040.jpg",
     "static/media/webshop.png": "/static/media/webshop.2ed3a1304761764a1cb8.png",
@@ -13,8 +13,6 @@
     "static/media/field2.png": "/static/media/field2.20660288f640f79886c0.png",
     "static/media/solidarity.jpg": "/static/media/solidarity.7d4ae4a65892d015a318.jpg",
     "static/media/unbiased.png": "/static/media/unbiased.78bfd101b82834a95da7.png",
-    "static/media/master.jpg": "/static/media/master.a6ec744be172773ca68e.jpg",
-    "static/media/office.jpg": "/static/media/office.a36516fa7c1f34030fa2.jpg",
     "static/media/scrum1.png": "/static/media/scrum1.1f53d2e3c818a621bb77.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -33,11 +31,11 @@
     "static/media/materialUI.svg": "/static/media/materialUI.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/react.svg": "/static/media/react.2dd4991bbe13699baba3823a01a2a3c7.svg",
     "main.45be4734.css.map": "/static/css/main.45be4734.css.map",
-    "main.ad480b9d.js.map": "/static/js/main.ad480b9d.js.map",
+    "main.c698f4cd.js.map": "/static/js/main.c698f4cd.js.map",
     "787.146a3669.chunk.js.map": "/static/js/787.146a3669.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45be4734.css",
-    "static/js/main.ad480b9d.js"
+    "static/js/main.c698f4cd.js"
   ]
 }
