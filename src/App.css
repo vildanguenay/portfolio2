@@ -47,10 +47,15 @@ button {
   border: 0;
   background-color: transparent;
 }
-input:focus,
 textarea:focus,
 select:focus {
   outline: none;
+}
+section,
+footer {
+  overflow: hidden;
+  white-space: wrap;
+  word-break: break-word;
 }
 
 @media (min-width: 1700px) {
@@ -249,7 +254,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -311,8 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
-  /* border-top: 0.2px solid #868686; */
+  overflow: unset !important;
   background: linear-gradient(rgb(26 13 18), rgb(50 61 73), rgb(19 21 32));
 }
 .skill-box {
@@ -351,13 +355,13 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   max-height: 75%;
   margin: auto auto;
 }
-.background-image-left {
+/* .background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
-}
+} */
 
 /* Projects CSS */
 .project {
@@ -433,7 +437,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .proj-imgbx {
     height: 20rem;
   }
@@ -457,6 +461,17 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 @media (min-width: 1000px) {
   .proj-imgbx {
     height: 43rem;
+  }
+}
+@media (max-width: 758px) {
+  .proj-txtx ul li {
+    font-size: medium;
+  }
+  .proj-txtx h4 {
+    font-size: large;
+  }
+  .proj-txtx h5 {
+    font-size: medium;
   }
 }
 
@@ -510,17 +525,17 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .proj-txtx a {
   text-decoration-color: #bec0cc;
 }
-.background-image-right {
+/* .background-image-right {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 35%;
   right: 0;
   z-index: -4;
-}
+} */
 /* About CSS */
 #about {
-  /* background: linear-gradient(rgb(119 101 107), rgb(50 61 73)); */
+  background: unset;
   /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
   background-image: url('./img/space2.jpg');
   background-size: cover;
@@ -529,9 +544,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .footer {
   padding: 4rem 0;
   background: rgb(19 21 32);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
 }
 .footer p {

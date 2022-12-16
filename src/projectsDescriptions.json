@@ -25,7 +25,7 @@
     "header": "responsive create-react-app including",
     "header2": "applied technologies",
     "image": "firstWebsite",
-    "link": "https://vildanguenay.github.io/webshop/",
+    "link": "https://vildanguenay.github.io",
     "description": "<li>navigation</li><li>hamburger menu</li>",
     "description2": "<li>react router</li><li>(custom) css properties</li><li>flexbox</li><li>grid</li>"
   }
