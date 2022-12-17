@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   background: linear-gradient(rgb(26 13 18), rgb(50 61 73), rgb(19 21 32));
 }
 .skill-box {
-  background: #131014;
+  background: #3c3140;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -537,7 +537,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 #about {
   background: unset;
   /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
-  background-image: url('./img/space2.jpg');
+  background-image: url('./img/gal.jpg');
   background-size: cover;
 }
 /* Footer CSS */

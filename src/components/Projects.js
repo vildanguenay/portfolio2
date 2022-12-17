@@ -11,7 +11,7 @@ export const Projects = () => {
             <div>
               <h2>Projects</h2>
               <p>
-                Please hover over project for more information. Also, by
+                Hover over or tap on project for more information. Also, by
                 clicking the title you will be redirected to the project site
                 itself.
               </p>
