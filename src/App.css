@@ -317,14 +317,14 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
   overflow: unset !important;
-  background: linear-gradient(rgb(26 13 18), rgb(50 61 73), rgb(19 21 32));
+  background: linear-gradient(rgb(26 13 18), rgb(29 35 41), rgb(19 21 32));
 }
 .skill-box {
   background: #3c3140;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: -30px;
 }
 .skill h2 {
   color: #b8b8b8;
@@ -344,6 +344,18 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   position: relative;
   align-items: center;
 }
+@media (max-width: 1400px) {
+  .skill-slider {
+    width: unset;
+  }
+  .skill-slider .item {
+    width: unset !important;
+  }
+  .skill h2 {
+    font-size: xx-large;
+  }
+}
+
 .skill-slider .item {
   width: 315px;
   height: 190px;
@@ -439,7 +451,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 @media (min-width: 300px) {
   .proj-imgbx {
-    height: 20rem;
+    height: 22rem;
   }
 }
 @media (min-width: 500px) {
@@ -537,7 +549,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 #about {
   background: unset;
   /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
-  background-image: url('./img/gal.jpg');
+  background-image: url('./img/pinkstars.jpg');
   background-size: cover;
 }
 /* Footer CSS */

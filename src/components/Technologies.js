@@ -14,6 +14,7 @@ import meter10 from '../img/scrum1.png';
 import meter11 from '../img/cypress.svg';
 import meter12 from '../img/jest.png';
 import meter13 from '../img/slack.svg';
+import meter14 from '../img/figma.svg';
 
 export const Technologies = () => {
   const responsive = {
@@ -102,6 +103,10 @@ export const Technologies = () => {
                 <div className="item">
                   <img src={meter13} alt="Image1" />
                   <h5>Slack</h5>
+                </div>
+                <div className="item">
+                  <img src={meter14} alt="Image1" />
+                  <h5>Figma</h5>
                 </div>
               </Carousel>
             </div>

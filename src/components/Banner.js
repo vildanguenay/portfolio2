@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ['Speaker', 'Web Developer', 'Web Designer'];
+  const toRotate = ['Vildan', 'Speaker', 'Web Developer', 'Web Designer'];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -64,7 +64,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    `On this website you can find projects I have developed and
+                    On this website you can find projects I have developed and
                     partly designed myself. Also, I have created an About Me
                     section where you can read about my educational background
                     and current interests. Lastly, a slider showcases all
