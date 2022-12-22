@@ -41,7 +41,7 @@ a:hover {
 }
 img {
   width: 100%;
-  height: 100%;
+  height: 75%;
 }
 button {
   border: 0;
@@ -69,6 +69,9 @@ footer {
   }
   .social-icon {
     margin-left: 14px;
+  }
+  img {
+    height: 100%;
   }
 }
 
@@ -449,6 +452,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 } */
 .proj-imgbx {
+  display: flex;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -456,7 +460,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 @media (min-width: 300px) {
   .proj-imgbx {
-    height: 22rem;
+    height: 23rem;
   }
 }
 @media (min-width: 500px) {
@@ -543,14 +547,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .proj-txtx a {
   text-decoration-color: #bec0cc;
 }
-/* .background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-} */
+.proj-imgbx img {
+  align-self: center;
+}
 /* About CSS */
 #about {
   background: unset;
