@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row className="justify-content-center">
           <div>
             <a href="mailto:vildan-guenay@hotmail.com" className="footerLink">
               mailto: vildan-guenay@hotmail.com

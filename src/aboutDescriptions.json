@@ -3,27 +3,27 @@
     "id": 1,
     "title": "Presenting",
     "image": "presenting",
-    "description": "<br><li>I enjoy presenting information to people aiming to do it short and sweet.</li>"
+    "description": "<br>I enjoy presenting information to people aiming to do it short and sweet."
   },
   {
     "id": 2,
     "title": "(International) Conflict Resolution",
     "header": "",
     "image": "solidarity",
-    "description": "<br><li>During my masters' programme International Development I developed a firm interest in international peace-keeping.</li><br><li>The aim is to remove tensions between parties or states maintaining a consistent level of peaceful and respectful communication in the pursuit of each party's goals.</li>"
+    "description": "<br>During my masters' programme International Development I developed a firm interest in international peace-keeping.<br>The aim is to remove tensions between parties or states maintaining a consistent level of peaceful and respectful communication in the pursuit of each party's goals."
   },
   {
     "id": 3,
     "title": "Journalistic Writing",
     "header": "",
     "image": "unbiased",
-    "description": "<br><li>During my bachelor's programme in Transcultural Communication creating different text types - mainly journalistic - in three different languages was the main agenda.</li><br><li>We have acquired a high level of language and cultural as well as text competence.</li>"
+    "description": "<br>During my bachelor's programme in Transcultural Communication creating different text types - mainly journalistic - in three different languages was the main agenda.<br>We have acquired a high level of language and cultural as well as text competence."
   },
   {
     "id": 4,
     "title": "Coding",
     "header": "",
     "image": "design",
-    "description": "<br><li>I also enjoy creating and designing websites - especially portfolios.</li>"
+    "description": "<br>I also enjoy creating and designing websites - especially portfolios."
   }
 ]
