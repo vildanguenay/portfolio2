@@ -5,7 +5,7 @@ import firstWebsite from '../img/website.png';
 import presenting from '../img/presenting.jpg';
 import solidarity from '../img/solidarity.jpg';
 import design from '../img/design.jpg';
-import unbiased from '../img/unbiased.png';
+import unbiased from '../img/cf vildan blur.jpg';
 
 export const ProjectCard = ({
   title,

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.832b63ff.css",
-    "main.js": "/portfolio2/static/js/main.0762ba3f.js",
+    "main.css": "/portfolio2/static/css/main.eb54df64.css",
+    "main.js": "/portfolio2/static/js/main.5017d28a.js",
     "static/js/787.146a3669.chunk.js": "/portfolio2/static/js/787.146a3669.chunk.js",
+    "static/media/pinkstars.jpg": "/portfolio2/static/media/pinkstars.e1d2f6b1623e56badfbc.jpg",
     "static/media/webshop.png": "/portfolio2/static/media/webshop.2ed3a1304761764a1cb8.png",
-    "static/media/night.jpg": "/portfolio2/static/media/night.6838a04ced3fed54a860.jpg",
     "static/media/netflix.png": "/portfolio2/static/media/netflix.0d0bcbde8051f78b4787.png",
     "static/media/presenting.jpg": "/portfolio2/static/media/presenting.c1424b2fe215fef391f1.jpg",
     "static/media/mountains.jpg": "/portfolio2/static/media/mountains.b1cddac0fa0d7132e63c.jpg",
@@ -28,14 +28,15 @@
     "static/media/apollo.svg": "/portfolio2/static/media/apollo.04405aaee687020bf8f20af1f69d30c8.svg",
     "static/media/js.svg": "/portfolio2/static/media/js.e608bacf7270442f0e121acda1ef3db9.svg",
     "index.html": "/portfolio2/index.html",
+    "static/media/figma.svg": "/portfolio2/static/media/figma.72ff35026c53ba574aef54c980db0e8d.svg",
     "static/media/materialUI.svg": "/portfolio2/static/media/materialUI.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/react.svg": "/portfolio2/static/media/react.2dd4991bbe13699baba3823a01a2a3c7.svg",
-    "main.832b63ff.css.map": "/portfolio2/static/css/main.832b63ff.css.map",
-    "main.0762ba3f.js.map": "/portfolio2/static/js/main.0762ba3f.js.map",
+    "main.eb54df64.css.map": "/portfolio2/static/css/main.eb54df64.css.map",
+    "main.5017d28a.js.map": "/portfolio2/static/js/main.5017d28a.js.map",
     "787.146a3669.chunk.js.map": "/portfolio2/static/js/787.146a3669.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.832b63ff.css",
-    "static/js/main.0762ba3f.js"
+    "static/css/main.eb54df64.css",
+    "static/js/main.5017d28a.js"
   ]
 }
