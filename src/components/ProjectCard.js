@@ -31,9 +31,9 @@ export const ProjectCard = ({
       <div className="proj-imgbx">
         <img src={images[image]} alt="" />
         <div className="proj-txtx">
-          <a href={link}>
-            <h4>{title}</h4>
-          </a>
+          <h4>
+            <a href={link}>{title}</a>
+          </h4>
           <h5>{header}</h5>
           <ul
             className="featureText"
