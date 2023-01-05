@@ -24,7 +24,7 @@ export const About = () => {
                     <Nav.Link eventKey="second">Mediation</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Journalism</Nav.Link>
+                    <Nav.Link eventKey="third">Communication</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="fourth">
