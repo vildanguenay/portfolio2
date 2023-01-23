@@ -270,6 +270,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
   color: #645398;
+  font-family: cursive;
 }
 .banner p {
   color: #fff;
