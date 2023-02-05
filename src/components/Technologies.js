@@ -4,16 +4,12 @@ import 'react-multi-carousel/lib/styles.css';
 import meter1 from '../img/react.svg';
 import meter2 from '../img/html.svg';
 import meter3 from '../img/css.svg';
-import meter4 from '../img/graphql.svg';
-import meter5 from '../img/apollo.svg';
 import meter6 from '../img/materialUI.svg';
 import meter7 from '../img/js.svg';
 import meter8 from '../img/bootstrap.svg';
 import meter9 from '../img/sass.svg';
-import meter10 from '../img/scrum1.png';
 import meter11 from '../img/cypress.svg';
 import meter12 from '../img/jest.png';
-import meter13 from '../img/slack.svg';
 import meter14 from '../img/figma.svg';
 
 export const Technologies = () => {
@@ -62,15 +58,7 @@ export const Technologies = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image3" />
-                  <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter4} alt="Image1" />
-                  <h5>GraphQL</h5>
-                </div>
-                <div className="item">
-                  <img src={meter5} alt="Image1" />
-                  <h5>Apollo</h5>
+                  <h5>SCSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter6} alt="Image1" />
@@ -89,20 +77,12 @@ export const Technologies = () => {
                   <h5>SASS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter10} alt="Image1" />
-                  <h5>Scrum</h5>
-                </div>
-                <div className="item">
                   <img src={meter11} alt="Image1" />
                   <h5>Cypress</h5>
                 </div>
                 <div className="item">
                   <img src={meter12} alt="Image1" />
                   <h5>Jest</h5>
-                </div>
-                <div className="item">
-                  <img src={meter13} alt="Image1" />
-                  <h5>Slack</h5>
                 </div>
                 <div className="item">
                   <img src={meter14} alt="Image1" />
