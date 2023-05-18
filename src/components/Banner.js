@@ -63,7 +63,7 @@ export const Banner = () => {
                     {`I'm `}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>
+                  <p className="taglineText">
                     On this website you can find projects I have developed and
                     mostly designed myself. Also, I have created an About Me
                     section where you can read about my educational background
@@ -71,7 +71,7 @@ export const Banner = () => {
                     technologies I have studied and implemented so far.
                   </p>
                   <a href="#project">
-                    Check out my side projects <ArrowRightCircle siz={25} />
+                    Check out my side projects <ArrowRightCircle size={25} />
                   </a>
                 </div>
               )}

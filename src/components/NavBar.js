@@ -63,7 +63,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink('about')}
             >
-              About Me{' '}
+              About Me
             </Nav.Link>
             <Nav.Link
               href="#skills"
