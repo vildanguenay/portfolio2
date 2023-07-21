@@ -59,10 +59,10 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome!</span>
-                  <h1>
+                  {/* <h1>
                     {`I'm `}
                     <span className="wrap">{text}</span>
-                  </h1>
+                  </h1> */}
                   <p className="taglineText">
                     On this website you can find projects I have developed and
                     mostly designed myself. Also, I have created an About Me

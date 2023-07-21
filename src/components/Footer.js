@@ -18,11 +18,11 @@ export const Footer = () => {
             </a>
           </div>
           <div className="social-icon navbar-text">
-            <a href="https://www.instagram.com/vildanguenay/" alt="">
+            {/* <a href="https://www.instagram.com/vildanguenay/" alt="">
               <i>
                 <FontAwesomeIcon icon={faInstagram} />
               </i>
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/vildan-guenay" alt="">
               <i>
                 <FontAwesomeIcon icon={faLinkedin} />
