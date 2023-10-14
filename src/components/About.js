@@ -26,11 +26,11 @@ export const About = () => {
                   <Nav.Item>
                     <Nav.Link eventKey="third">Communication</Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  {/* <Nav.Item>
                     <Nav.Link eventKey="fourth">
                       Web Development & Design
                     </Nav.Link>
-                  </Nav.Item>
+                  </Nav.Item> */}
                 </Nav>
                 {data.map((project) => (
                   <Tab.Content>
