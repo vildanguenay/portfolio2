@@ -5,7 +5,7 @@
     "header": "responsive create-react-app including",
     "header2": "applied technologies",
     "image": "netflix",
-    "link": "https://vildanguenay.github.io/netflix-clone/",
+    "link": "https://vildanguenay.github.io/movie-rental/",
     "description": "<li>homepage</li><li>browse dashboard</li><li>log in</li><li>sign up</li><li>video player</li>",
     "description2": "<li>compound components</li><li>styled components: css in js</li><li>firebase (firestore and authentication)</li><li>live search with fuse.js</li>"
   },
@@ -25,7 +25,7 @@
     "header": "responsive create-react-app including",
     "header2": "applied technologies",
     "image": "firstWebsite",
-    "link": "https://vildanguenay.github.io",
+    "link": "https://vildanguenay.github.io/cv/",
     "description": "<li>navigation</li><li>hamburger menu</li>",
     "description2": "<li>react router</li><li>(custom) css properties</li><li>flexbox</li><li>grid</li>"
   }
