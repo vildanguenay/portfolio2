@@ -23,11 +23,11 @@ export const Footer = () => {
                 <FontAwesomeIcon icon={faInstagram} />
               </i>
             </a> */}
-            <a href="https://www.linkedin.com/in/vildan-guenay" alt="">
+            {/* <a href="https://www.linkedin.com/in/vildan-guenay" alt="">
               <i>
                 <FontAwesomeIcon icon={faLinkedin} />
               </i>
-            </a>
+            </a> */}
             <a href="https://github.com/vildanguenay" alt="">
               <i>
                 <FontAwesomeIcon icon={faGithub} />

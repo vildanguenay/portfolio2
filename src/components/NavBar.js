@@ -56,7 +56,7 @@ export const NavBar = () => {
             >
               Projects
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#about"
               className={
                 activeLink === 'about' ? 'active navbar-link' : 'navbar-link'
@@ -64,7 +64,7 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink('about')}
             >
               About Me
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="#skills"
               className={
@@ -82,11 +82,11 @@ export const NavBar = () => {
                   <FontAwesomeIcon icon={faInstagram} />
                 </i>
               </a> */}
-              <a href="https://www.linkedin.com/in/vildan-guenay" alt="">
+              {/* <a href="https://www.linkedin.com/in/vildan-guenay" alt="">
                 <i>
                   <FontAwesomeIcon icon={faLinkedin} />{' '}
                 </i>
-              </a>
+              </a> */}
               <a href="https://github.com/vildanguenay" alt="">
                 <i>
                   <FontAwesomeIcon icon={faGithub} />

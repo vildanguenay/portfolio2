@@ -6,6 +6,7 @@ import presenting from '../img/presenting.jpg';
 import solidarity from '../img/solidarity.jpg';
 import design from '../img/design.jpg';
 import unbiased from '../img/cf vildan blur.jpg';
+import forest from '../img/forest.png';
 
 export const ProjectCard = ({
   title,
@@ -24,6 +25,7 @@ export const ProjectCard = ({
     solidarity: solidarity,
     design: design,
     unbiased: unbiased,
+    forest: forest,
   };
 
   return (
